@@ -1,0 +1,22 @@
+h1{
+ text-align: center;
+ -webkit-text-fill-color:blueviolet;
+}
+p{
+ text-align: center;
+ -webkit-text-fill-color:#f283b6;
+}
+header{
+ background-color: deeppink ;
+}
+h2{
+ text-align: center;
+ -webkit-text-fill-color: blue;
+}
+footer{
+ background-color: aqua;
+}
+h3{
+ text-align: center;
+ -webkit-text-fill-color: #ffd60a;
+}

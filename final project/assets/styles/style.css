@@ -1,0 +1,34 @@
+p {
+ .center {
+  width: 260%;
+ }
+}
+
+truck {
+ .center {
+  width: 50%;
+ }
+}
+
+car {
+ .center {
+  width: 50%;
+
+ }
+}
+
+#drive {
+ .center {
+  width: 50%;
+ }
+}
+
+hello {
+ .center {
+  width: 70%;
+ }
+}
+
+body {
+background-color:pink;
+}

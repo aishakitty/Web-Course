@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <table>
+        <!-- tr == table row -->
+        <!-- th == table head -->
+        <!-- td == table data -->
+        <h1>Princess</h1>
+        <tr>
+            <th>Id</th>  
+            <th>Name</th>
+            <th>Color</th>
+            <th>Information</th>
+        </tr>
+        <tr class="rapunzel">
+            <td>1</td>
+            <td>Rapunzel</td>
+            <td>Purple</td>
+            <td>
+                she was stuck in a tower 
+            </td>
+        </tr>
+        <tr class="ariel">
+            <td>2</td>
+            <td>ariel</td>
+            <td>red</td>
+            <td>She had made a deal with a witch and lost her voice</td>
+        </tr>
+        <tr class="snow white">
+            <td>3</td>
+            <td>snow white</td>
+            <td>blue</td>
+            <td>She ate a apple and almost died</td>
+        </tr>
+        
+h1{
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 10px;
+   }
+   table,
+   td,
+   th {
+    /* border:2px ;
+    border-style: solid;
+    border-color: #e63946; */
+    font-size: 14pt;
+    border: 2px soild #f694c1;
+   }
+   tr {
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 14pt;
+    color: #f694c1;
+   }
+   .rapunzel {
+    color: purple;
+   }
+   .ariel {
+    color: red;
+   }
+   .snowwhite {
+    color:blue;
+   }
+    </table>
+</body>
+</html>

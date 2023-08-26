@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color:blueviolet;
+  text-align: center;
+}
+
+p {
+  font-family: Verdana;
+}
+</style>
+</head>
+<body>
+
+<h1>my day is today<h1>
+<p> my day is today.</p>
+
+</body>
+</html>

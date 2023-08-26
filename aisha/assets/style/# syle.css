@@ -1,0 +1,38 @@
+h1{
+ background-color: plum;
+ text-align: center;
+ margin: 15px;
+ margin-bottom: 10px;
+}
+
+table,
+td,
+th {
+  border:35=35px ;
+ border-style: dashed;
+ border-color: #e63946; 
+ font-size: 45pt;
+ border: 35px dashed mediumvioletred;
+
+}
+
+
+
+tr {
+ font-family: fantasy;
+ font-style:italic;
+ font-size: 34pt;
+ color: hotpink;
+}
+
+.rapunzel {
+ color: purple;
+}
+
+.ariel {
+ color: red;
+}
+
+.snow white {
+ color: yellow;
+}
