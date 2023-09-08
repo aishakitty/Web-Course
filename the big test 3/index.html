@@ -1,39 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elzero</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href= "styles/style.css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="styles/all.min.css" />
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <!--Start header-->
-    <div class="header">
-    <div class="container" >  
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elzero</title>
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="styles/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--Start header-->
+  <div class="header" id="header">
+    <div class="container">
       <a href="#" class="logo">Elzero</a>
       <ul class="main-nav">
-        <li><a href="#Article">Artical</a></li>
+        <li><a href="#article">Artical</a></li>
         <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#features">Features</a></li>
-        <li><a href="#">other links</a></li>
+        <li><a href="#features">Features</a></li>
+        <li>
+          <a href="#">other links</a>
+          <!--Start Megamenu-->
+          <div class="mega-menu">
+             <div class="image">
+              <img src="imgs\megamenu.png" alt="" />
+            </div>
+            <ul class="links">
+              <li>
+                <a href="#testimonials"><i class="far fa-comments fa-fw"></i> Testimonials</a>
+              </li>
+              <li>
+                <a href="#team"><i class="far fa-user fa-fw"></i> Team Members</a>
+              </li>
+              <li>
+                <a href="#services"><i class="far fa-building fa-fw"></i> Services</a>
+              </li>
+              <li>
+                <a href="#our-skills"><i class="far fa-check-circle fa-fw"></i> Our Skills</a>
+              </li>
+              <li>
+                <a href="#work-steps"><i class="far fa-cilpboard fa-fw"></i> How It Works</a>
+              </li>
+            </ul>
+            <ul class="links">
+              <li>
+                <a href="#events"><i class="far fa-calendar fa-fw"></i> Events</a>
+              </li>
+              <li>
+                <a href="#pricing"><i class="far fa-server fa-fw"></i> Pricing Plans</a>
+              </li>
+              <li>
+                <a href="#vidoe"><i class="far fa-play-circle fa-fw"></i> Top Vidoes</a>
+              </li>
+              <li>
+                <a href="#stats"><i class="far fa-chart-bar fa-fw"></i> Stats</a>
+              </li>
+              <li>
+                <a href="#discount"><i class="far fa-percent fa-fw"></i> Request A Discount</a>
+              </li>
+            </ul>
+          </div>
+          <!--End Megamenu-->
+        </li>
       </ul>
     </div>
-    </div>
-    <!--End header-->
-    <!--Start Landing-->
-    <div class="Landing">
+  </div>
+  <!--End header-->
+  <!--Start Landing-->
+  <div class="Landing">
     <div class="container">
-      <div class=""></div>
+      <div class="text">
+        <h1>welcome to elzero world</h1>
+        <p>Here I am gonna share everything about my life. Books I am reading, Games I am Playing, Storis and Events</p>
+      </div>
+      <div class="image">
+        <img src="imgs/landing-image.png" alt="" />
+      </div>
     </div>
+    ,
+  </div>
+  <a href="#articles" class="go-down">
+    <i class="fa-solid fa-angles-down"></i>
+  </a>
+  </div>
+  <!--End Landing-->
+  <!-- Start Articles -->
+  <div class="articals" id="articals">
+    <h2 class="main-title"> Articals</h2>
+    <div class="container">
+      <div class="box">
+        <img src="imgs/cat-01.jpg" alt="" />
+        <div class="content">
+          <h3>Test Title</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        </div>
+        <div class="info">
+          <a href="">Read More</a>
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="imgs/cat-02.jpg" alt="" />
+        <div class="content">
+          <h3>Test Title</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        </div>
+        <div class="info">
+          <a href="">Read More</a>
+          <i class="fa-solid fa-angles-right"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="imgs/cat-03.jpg" alt="" />
+        <div class="content">
+          <h3>Test Title</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        </div>
+        <div class="info">
+          <a href="">Read More</a>
+          <i class="fa-solid fa-angles-right"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="imgs/cat-04.jpg" alt="" />
+        <div class="content">
+          <h3>Test Title</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        </div>
+        <div class="info">
+          <a href="">Read More</a>
+          <i class="fa-solid fa-angles-right"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="imgs/cat-05.jpg" alt="" />
+        <div class="content">
+          <h3>Test Title</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        </div>
+        <div class="info">
+          <a href="">Read More</a>
+          <i class="fa-solid fa-angles-right"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="imgs/cat-06.jpg" alt="" />
+        <div class="content">
+          <h3>Test Title</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        </div>
+        <div class="info">
+          <a href="">Read More</a>
+          <i class="fa-solid fa-angles-right"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="imgs/cat-07.jpg" alt="" />
+        <div class="content">
+          <h3>Test Title</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        </div>
+        <div class="info">
+          <a href="">Read More</a>
+          <i class="fa-solid fa-angles-right"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="imgs/cat-08.jpg" alt="" />
+        <div class="content">
+          <h3>Test Title</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        </div>
+        <div class="info">
+          <a href="">Read More</a>
+          <i class="fa-solid fa-angles-right"></i>
+        </div>
+      </div>
     </div>
-    <!--End Landing-->
-  </body>
-  </html>
+  </div>
+  <div class="spikes"></div>
+  <!-- End Articles -->
+  <!-- Start Gallery -->
+  <div class="gallery" id="gallery">
+    <h2 class="main-title">Gallery</h2>
+    <div class="container">
+      <div class="box">
+        <div class="image">
+          <img src="imgs/gallery-01.png" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="imgs/gallery-02.png" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="imgs/gallery-03.jpg" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="imgs/gallery-04.png" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="imgs/gallery-05.jpg" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="imgs/gallery-06.png" alt="" />
+        </div>
+      </div>
+    </div>
+]
+  </div>
+  <!-- End Gallery -->
+  <!--Start Features -->
+<div class="Features" id="Features">
+  <h2 class="main-title">Features</h2>
+  <div class="container">
+    <div class="box quality"
+    <div class="img-holder"><img src="imgs/features-01.jpg" alt=""/></div>
+    <h2>Quality</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+    <a href="#">More</a>
+  </div>
+  <div class="box Time"
+  <div class="img-holder"><img src="imgs/features-02.jpg" alt=""/></div>
+  <h2>Time</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+  <a href="#">More</a>
+</div>
+<div class="box Passion"
+<div class="img-holder"><img src="imgs/features-03.jpg" alt=""/></div>
+<h2>Passion</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+<a href="#">More</a>
+</div>
+</div>
+    <!--End Features -->
+</body>
+</html>
